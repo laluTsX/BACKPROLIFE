@@ -11,8 +11,8 @@ from pymongo.server_api import ServerApi
 from datetime import datetime, timedelta
 import bcrypt
 from groq import Groq
-groq_client = Groq(api_key="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")
-
+groq_client = Groq(api_key="")
+#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
 # ======================  IMPORTS ML ======================
 import pandas as pd
 from sklearn.model_selection import train_test_split
