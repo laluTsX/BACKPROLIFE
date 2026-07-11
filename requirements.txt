@@ -1,19 +1,27 @@
+# Build tools
 pip
-setuptools
+setuptools>=65.0.0
 wheel
 
+# Core
 Flask==2.3.3
 Flask-Cors==4.0.0
 gunicorn==21.2.0
 pymongo==4.5.0
 bcrypt==4.0.1
 groq==1.5.0
-numpy==1.24.3
-opencv-python-headless==4.8.1.78
+
+# Imágenes y visión
+numpy==1.26.4
+opencv-python-headless==4.9.0.80
 Pillow==10.4.0
+
+# ML
+pandas==2.2.3
+scikit-learn==1.5.2
+
+# Utilidades
 python-dotenv==1.2.1
 requests==2.31.0
-pandas==2.3.3
-scikit-learn==1.7.2
-certifi==2026.5.20
-urllib3==2.7.0
+certifi
+urllib3
